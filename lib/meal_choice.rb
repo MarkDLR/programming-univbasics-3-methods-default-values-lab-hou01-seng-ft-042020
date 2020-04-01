@@ -5,6 +5,6 @@ def meal_choice(veg1, veg2, protein = tofu)
   puts "What a nutritious meal!"
   return prot
   puts "A plate of #{protein} with #{veg1} and #{veg2}."
-meal_choice(veg1, veg2, protein)
+  meal_choice(veg1, veg2, protein)
 end
 
